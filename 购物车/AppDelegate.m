@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "CarTableViewController.h"
+#import "CartViewCell.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +19,27 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+//    1.
+    self.window  = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    
+    CarTableViewController *cart = [[CarTableViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:cart];
+    
+
+    
+    self.window.rootViewController = nav;
+
+    
+    
+    
+    [self.window makeKeyAndVisible];
+    
+    
+    
+    
+
     return YES;
 }
 

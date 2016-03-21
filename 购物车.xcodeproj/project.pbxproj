@@ -7,25 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBF1F79D1CA01756002B39A9 /* CarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF1F79C1CA01756002B39A9 /* CarTableViewController.m */; };
 		CBF6A5B81C97B5A600A14DAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6A5B71C97B5A600A14DAE /* main.m */; };
 		CBF6A5BB1C97B5A600A14DAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6A5BA1C97B5A600A14DAE /* AppDelegate.m */; };
 		CBF6A5BE1C97B5A600A14DAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6A5BD1C97B5A600A14DAE /* ViewController.m */; };
-		CBF6A5C11C97B5A600A14DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF6A5BF1C97B5A600A14DAE /* Main.storyboard */; };
 		CBF6A5C31C97B5A600A14DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF6A5C21C97B5A600A14DAE /* Assets.xcassets */; };
 		CBF6A5C61C97B5A600A14DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF6A5C41C97B5A600A14DAE /* LaunchScreen.storyboard */; };
+		CBF6A5D01C97B5EE00A14DAE /* CartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6A5CF1C97B5EE00A14DAE /* CartModel.m */; };
+		CBF6A5D61C97B7B400A14DAE /* CartViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF6A5D51C97B7B400A14DAE /* CartViewCell.m */; };
+		F572F87E5459E78D8B2E887A /* libPods-购物车.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 272EF2968B47C1ABFE147F66 /* libPods-购物车.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12CDC867B8125519B2F4B20E /* Pods-购物车.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-购物车.release.xcconfig"; path = "Pods/Target Support Files/Pods-购物车/Pods-购物车.release.xcconfig"; sourceTree = "<group>"; };
+		272EF2968B47C1ABFE147F66 /* libPods-购物车.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-购物车.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A4E2294F81249430EA71F4 /* Pods-购物车.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-购物车.debug.xcconfig"; path = "Pods/Target Support Files/Pods-购物车/Pods-购物车.debug.xcconfig"; sourceTree = "<group>"; };
+		CBF1F79C1CA01756002B39A9 /* CarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTableViewController.m; sourceTree = "<group>"; };
 		CBF6A5B31C97B5A600A14DAE /* 购物车.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "购物车.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF6A5B71C97B5A600A14DAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBF6A5B91C97B5A600A14DAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBF6A5BA1C97B5A600A14DAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CBF6A5BC1C97B5A600A14DAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CBF6A5BD1C97B5A600A14DAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CBF6A5C01C97B5A600A14DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBF6A5C21C97B5A600A14DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBF6A5C51C97B5A600A14DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBF6A5C71C97B5A600A14DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF6A5CE1C97B5EE00A14DAE /* CartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartModel.h; sourceTree = "<group>"; };
+		CBF6A5CF1C97B5EE00A14DAE /* CartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartModel.m; sourceTree = "<group>"; };
+		CBF6A5D11C97B76E00A14DAE /* CarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTableViewController.h; sourceTree = "<group>"; };
+		CBF6A5D41C97B7B400A14DAE /* CartViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewCell.h; sourceTree = "<group>"; };
+		CBF6A5D51C97B7B400A14DAE /* CartViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F572F87E5459E78D8B2E887A /* libPods-购物车.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16F7F5850ABBC9177DFE2413 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43A4E2294F81249430EA71F4 /* Pods-购物车.debug.xcconfig */,
+				12CDC867B8125519B2F4B20E /* Pods-购物车.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5CBBC3FEECAF16FCCEDAD850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272EF2968B47C1ABFE147F66 /* libPods-购物车.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CBF6A5AA1C97B5A600A14DAE = {
 			isa = PBXGroup;
 			children = (
 				CBF6A5B51C97B5A600A14DAE /* 购物车 */,
 				CBF6A5B41C97B5A600A14DAE /* Products */,
+				16F7F5850ABBC9177DFE2413 /* Pods */,
+				5CBBC3FEECAF16FCCEDAD850 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +89,11 @@
 		CBF6A5B51C97B5A600A14DAE /* 购物车 */ = {
 			isa = PBXGroup;
 			children = (
+				CBF6A5CD1C97B5AF00A14DAE /* Cart */,
 				CBF6A5B91C97B5A600A14DAE /* AppDelegate.h */,
 				CBF6A5BA1C97B5A600A14DAE /* AppDelegate.m */,
 				CBF6A5BC1C97B5A600A14DAE /* ViewController.h */,
 				CBF6A5BD1C97B5A600A14DAE /* ViewController.m */,
-				CBF6A5BF1C97B5A600A14DAE /* Main.storyboard */,
 				CBF6A5C21C97B5A600A14DAE /* Assets.xcassets */,
 				CBF6A5C41C97B5A600A14DAE /* LaunchScreen.storyboard */,
 				CBF6A5C71C97B5A600A14DAE /* Info.plist */,
@@ -79,6 +110,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CBF6A5CD1C97B5AF00A14DAE /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				CBF6A5CE1C97B5EE00A14DAE /* CartModel.h */,
+				CBF6A5CF1C97B5EE00A14DAE /* CartModel.m */,
+				CBF6A5D11C97B76E00A14DAE /* CarTableViewController.h */,
+				CBF1F79C1CA01756002B39A9 /* CarTableViewController.m */,
+				CBF6A5D41C97B7B400A14DAE /* CartViewCell.h */,
+				CBF6A5D51C97B7B400A14DAE /* CartViewCell.m */,
+			);
+			name = Cart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBF6A5CA1C97B5A600A14DAE /* Build configuration list for PBXNativeTarget "购物车" */;
 			buildPhases = (
+				91C487C25D58F0DC48ACCD55 /* Check Pods Manifest.lock */,
 				CBF6A5AF1C97B5A600A14DAE /* Sources */,
 				CBF6A5B01C97B5A600A14DAE /* Frameworks */,
 				CBF6A5B11C97B5A600A14DAE /* Resources */,
+				2F938F45C2E6380B681BDFDF /* Embed Pods Frameworks */,
+				D8E84DC57EBDDEEF67E27D86 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,11 +185,58 @@
 			files = (
 				CBF6A5C61C97B5A600A14DAE /* LaunchScreen.storyboard in Resources */,
 				CBF6A5C31C97B5A600A14DAE /* Assets.xcassets in Resources */,
-				CBF6A5C11C97B5A600A14DAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F938F45C2E6380B681BDFDF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-购物车/Pods-购物车-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91C487C25D58F0DC48ACCD55 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E84DC57EBDDEEF67E27D86 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-购物车/Pods-购物车-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CBF6A5AF1C97B5A600A14DAE /* Sources */ = {
@@ -150,6 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF6A5BE1C97B5A600A14DAE /* ViewController.m in Sources */,
+				CBF6A5D01C97B5EE00A14DAE /* CartModel.m in Sources */,
+				CBF1F79D1CA01756002B39A9 /* CarTableViewController.m in Sources */,
+				CBF6A5D61C97B7B400A14DAE /* CartViewCell.m in Sources */,
 				CBF6A5BB1C97B5A600A14DAE /* AppDelegate.m in Sources */,
 				CBF6A5B81C97B5A600A14DAE /* main.m in Sources */,
 			);
@@ -158,14 +255,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CBF6A5BF1C97B5A600A14DAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBF6A5C01C97B5A600A14DAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBF6A5C41C97B5A600A14DAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,6 +348,7 @@
 		};
 		CBF6A5CB1C97B5A600A14DAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A4E2294F81249430EA71F4 /* Pods-购物车.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "购物车/Info.plist";
@@ -270,6 +360,7 @@
 		};
 		CBF6A5CC1C97B5A600A14DAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12CDC867B8125519B2F4B20E /* Pods-购物车.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "购物车/Info.plist";
@@ -298,6 +389,7 @@
 				CBF6A5CC1C97B5A600A14DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
